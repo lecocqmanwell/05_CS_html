@@ -1,0 +1,53 @@
+
+
+header{
+background: #CECECE;
+border-bottom: 2px black solid;
+
+
+}
+
+img{
+  margin-top: 2%;
+  margin-bottom: 2%;
+  margin-left: 5%;
+}
+
+nav{
+  border: 2px black solid;
+}
+.glyphicon{
+font-size: 1.4em;
+
+}
+.bouton {
+z-index: 2000;
+position: fixed;
+}
+h1{
+  text-align: center;
+}
+h3{
+padding-bottom: 2%;
+}
+.aside{
+  border: 2px solid black;
+  border-radius: 0.6em;
+  padding: 3%;
+  margin: 2%;
+  background: #CECECE;
+}
+article{
+  border: 2px solid black;
+  border-radius: 0.6em;
+  margin: 2%;
+  padding: 3%;
+  background: #CECECE;
+}
+footer{
+  border: 2px solid black;
+  border-radius: 0.6em;
+  margin: 2%;
+  padding: 3%;
+  background: #CECECE;
+}

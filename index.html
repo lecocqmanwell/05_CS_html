@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" href="font/glyphicons-halflings-regular.eot" type="text/css">
+  <script type="application/javascript" src="js/jquery-1.11.3.min.js"></script>
+  <script type="application/javascript" src="js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="animate.min.css">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Cheatsheet HTML5</title>
+</head>
+
+<body>
+  <header id="head">
+    <div class="container">
+      <img src="images/index.png" alt="logo html 5" />
+      <nav class="navbar navbar-default navbar-static-top navbar-right">
+        <div class="navbar-header">
+          <div class="dropdown hidden-lg">
+  <button class="btn btn-inverse dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+    <span class="glyphicon glyphicon-align-justify" aria-hidden="true"></span>
+    <span class="caret"></span>
+  </button>
+  <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+    <li><a href="#premier">Sectionning</a></li>
+    <li><a href="#second">Flow content</a></li>
+    <li><a href="#troisieme">Interractive</a></li>
+    <li><a href="#quatrieme">Phrasing</a></li>
+    <li><a href="#cinquieme">Input</a></li>
+  </ul>
+</div>
+          <ul class="nav navbar-nav visible-lg">
+            <li>
+              <a href="#head">
+                <span class="glyphicon glyphicon-home" aria-hidden="true"></span>Accueil</a>
+            </li>
+            <li>
+              <a href="#premier">
+                <span class="glyphicon glyphicon-align-left" aria-hidden="true"></span>Sectionning</a>
+            </li>
+            <li>
+              <a href="#second">
+                <span class="glyphicon glyphicon-cd" aria-hidden="true"></span>Flow content</a>
+            </li>
+            <li>
+              <a href="#troisieme">
+                <span class="glyphicon glyphicon-tree-conifer" aria-hidden="true"></span>Interractive</a>
+            </li>
+            <li>
+              <a href="#quatrieme">
+                <span class="glyphicon glyphicon-apple" aria-hidden="true"></span>Phrasing</a>
+            </li>
+            <li>
+              <a href="#cinquieme">
+                <span class="glyphicon glyphicon-flag" aria-hidden="true"></span>Input</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <section>
+
+      <h1>Cheat sheet htlm 5
+        <br/>
+        <small> petit mémo pour les têtes en l'air</small>
+      </h1>
+      <div class="row">
+        <aside class="aside col-lg-2 static">
+          <p>
+            HTML est un language par balises. Dans ce cheatsheet nous verrons comment utilisé ces balises habillement. En effet nous allons utiliser des balises "sémantiques" afin de préparer au mieux les futurs évolution des moteurs de recherches.
+          </p>
+        </aside>
+        <article class="premier col-lg-offset-3">
+          <div id="premier">
+            <h3>Sectioning content</h3>
+            <code>article</code>
+            <dt>A composition that forms an independent part of a document, page, application, or site.</dt>
+            <code>aside</code>
+            <dt>Content that is tangentially related to the content around the aside element</dt>
+            <code>nav</code>
+            <dt>A section with navigation links.</dt>
+            <code>section</code>
+            <dt>A generic document or application section.</dt>
+          </div>
+        </article>
+
+        <article class="second col-lg-offset-3">
+          <div id="second">
+
+            <h3>Flow content</h3>
+            <code>header</code>
+            <dt>A group of introductory or navigational aids.</dt>
+            <code>footer</code>
+            <dt>A footer for its nearest ancestor sectioning content. Typically contains information about its section such as who wrote it, links to related documents, copyright data, and the like.</dt>
+            <code>figure</code>
+            <dt>Content, optionally with a figcaption, that is self-contained and is typically referenced as a single unit from the main flow of the document. </dt>
+          </div>
+        </article>
+      </div>
+      <div class="row">
+
+        <article class="troisieme col-lg-offset-3">
+          <div id="troisieme">
+
+            <h3>Interactive content</h3>
+            <h5>Audio</h5>
+            <code> &ltaudio src="audio.mp3" controls preload="none" autoplay loop &gt &lt/audio &gt</code>
+            <h5>Video</h5>
+            <code> &lt video width=360 height=240 controls poster="image.jpg" &gt &ltsource src="movie.mp4" type="video/mp4"&gt &ltsource src="movie.ogg" type="video/ogg"&gt &lt/video&gt
+            </code>
+          </div>
+        </article>
+        <article class="quatrieme col-lg-offset-3">
+          <div id="quatrieme">
+
+            <h3>Phrasing content</h3>
+            <code>mark</code>
+            <dt>A run of text in one document marked or highlighted for reference purposes, due to its relevance in another context.</dt>
+            <code>time</code>
+            <dt>A time on a 24 hour clock, or a precise date in the Gregorian calendar.</dt>
+          </div>
+        </article>
+        <article class="cinquieme col-lg-offset-3">
+          <div id="cinquieme">
+            <h3> Input types</h3>
+            <code>search, tel, email, url, datetime, datetime-local, date, month, week, time </code>
+            <code>number</code>
+            <dt>A text field or spinner control.</dt>
+            <code> &ltinput type="number" min=0 max=10&gt</code>
+            <code>range</code>
+            <dt>A slider control.</dt>
+            <code>&ltinput type="range" min=0 max=100&gt</code>
+            <code>color</code>
+            <dt>A colour well.</dt>
+            <code> &lt input type="color" value="#000000"&gt</code>
+          </div>
+
+        </article>
+      </div>
+
+
+  </section>
+
+  <footer>
+    <div class="row">
+      <div class="footer">
+        <p>
+          copyright...
+        </p>
+      </div>
+      <div class="container">
+        <div  id="btnhaut" class="bouton"  >
+          <a href="#head"> <button  type="button" class="btn btn-primary btn-lg fixed-bottom-right"> En haut <span class="glyphicon glyphicon-menu-up" aria-hidden="true"></span></button></a>
+
+        </div>
+    </div>
+  </div>
+  </footer>
+</body>
+
+</html>
